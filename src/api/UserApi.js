@@ -15,6 +15,7 @@
 import {ApiClient} from "../ApiClient";
 import {InlineResponse200} from '../model/InlineResponse200';
 import {InlineResponse2001} from '../model/InlineResponse2001';
+import {InlineResponse400} from '../model/InlineResponse400';
 
 /**
 * User service.

@@ -1,11 +1,12 @@
 {
   "name": "@panthernine/swagger_test",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "swagger_client_sdk_test_",
   "license": "MIT",
   "main": "src/index.js",
   "scripts": {
-    "test": "mocha --require @babel/register --recursive"
+    "test": "mocha --require @babel/register --recursive",
+    "build": "babel src -d build"
   },
   "browser": {
     "fs": false
