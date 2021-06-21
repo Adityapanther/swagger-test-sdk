@@ -19,6 +19,8 @@ import {InlineResponse2001Data} from './model/InlineResponse2001Data';
 import {InlineResponse2001DataData} from './model/InlineResponse2001DataData';
 import {InlineResponse2001DataDataPageList} from './model/InlineResponse2001DataDataPageList';
 import {InlineResponse200Data} from './model/InlineResponse200Data';
+import {InlineResponse400} from './model/InlineResponse400';
+import {InlineResponse400Data} from './model/InlineResponse400Data';
 import {UserApi} from './api/UserApi';
 
 /**
@@ -94,6 +96,18 @@ export {
      * @property {module:model/InlineResponse200Data}
      */
     InlineResponse200Data,
+
+    /**
+     * The InlineResponse400 model constructor.
+     * @property {module:model/InlineResponse400}
+     */
+    InlineResponse400,
+
+    /**
+     * The InlineResponse400Data model constructor.
+     * @property {module:model/InlineResponse400Data}
+     */
+    InlineResponse400Data,
 
     /**
     * The UserApi service constructor.
